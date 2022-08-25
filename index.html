@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Orden del Taco - Full Site</title>
+    <!-- cdn para el banner -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- cdn link de font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- link a mi css -->
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+    <!-- header comienza -->
+    <header>
+        <a href="#" class="logo"> <i class="fa-solid fa-pepper-hot"></i>La Orden</a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#platos">platillos</a>
+            <a href="#nosotros">nosotros</a>
+            <a href="#menu">menu</a>
+            <a href="#comentarios">reviews</a>
+            <a href="#contacto">contacto</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+    <!-- header termina -->
+
+    <!-- boton de busqueda -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="buscar receta" name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- section de home incia es el mismo section que va al css-->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Nuestros Tacos</span>
+                        <h3>Tacos al Pastor</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nulla aut! Inventore!</p>
+                        <a href="#" class="btn">Ordena aqui</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/home-img-1.png" alt="">
+                    </div>
+                </div>
+                <!-- slider 2 de imagenes -->
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Nuestros Tacos</span>
+                        <h3>Tacos de Barbacoa</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nulla aut! Inventore!</p>
+                        <a href="#" class="btn">Ordena aqui</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/home-img-2.png" alt="">
+                    </div>
+                </div>
+                <!-- slide 3 del home -->
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Nuestros Tacos</span>
+                        <h3>Tacos de Birria</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nulla aut! Inventore!</p>
+                        <a href="#" class="btn">Ordena aqui</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/home-img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- section de home termina -->
+    <!-- comienza seccion de platos -->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading"> nuestros platillos</h3>
+        <h1 class="heading">Lo mas pedido</h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-1.png" alt="">
+                <h3>Deliciosos Tacos</h3>
+                <div class="start">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$6.99</span>
+                <a href="#" class="btn">mas</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-2.png" alt="">
+                <h3>Deliciosos Tacos</h3>
+                <div class="start">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$6.99</span>
+                <a href="#" class="btn">mas</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-3.png" alt="">
+                <h3>Deliciosos Tacos</h3>
+                <div class="start">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$6.99</span>
+                <a href="#" class="btn">mas</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-4.png" alt="">
+                <h3>Deliciosos Tacos</h3>
+                <div class="start">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$6.99</span>
+                <a href="#" class="btn">mas</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-5.png" alt="">
+                <h3>Deliciosos Tacos</h3>
+                <div class="start">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$6.99</span>
+                <a href="#" class="btn">mas</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish-6.png" alt="">
+                <h3>Deliciosos Tacos</h3>
+                <div class="start">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$6.99</span>
+                <a href="#" class="btn">mas</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- termina la seccion de platos -->
+    <!-- cdn para el banner  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- js file link -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
