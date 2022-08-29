@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Orden del Taco - Full Site</title>
+    <title>La Orden del Taco - Tacos your way</title>
     <meta name="description" content="El autentico sabor de Mexico con los mejores ingredientes y las recetas originales.">
     <!-- cdn para el banner -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <!-- cdn link de font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- cdn a bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <!-- link a mi css -->
     <link rel="stylesheet" href="./style/style.css">
-
 </head>
 
 <body>
@@ -42,9 +43,8 @@
     <form action="" id="search-form">
         <input type="search" placeholder="buscar receta" name="" id="search-box">
         <label for="search-box" class="fas fa-search"></label>
-        <i class="fas fa-times" id="close"></i>
+        <i class="fas fa-times" id="close"></i> 
     </form>
-
     <!-- section de home incia es el mismo section que va al css-->
     <section class="home" id="home">
         <div class="swiper home-slider">
@@ -89,6 +89,7 @@
         </div>
     </section>
     <!-- section de home termina -->
+
     <!-- comienza seccion de platos -->
     <section class="dishes" id="dishes">
         <h3 class="sub-heading"> nuestros platillos</h3>
@@ -106,8 +107,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <!-- <span>$6.99</span>
-                <a href="#" class="btn">mas</a> -->
+
             </div>
 
             <div class="box">
@@ -122,8 +122,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <!-- <span>$6.99</span>
-                <a href="#" class="btn">mas</a> -->
+
             </div>
 
             <div class="box">
@@ -138,8 +137,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <!-- <span>$6.99</span>
-                <a href="#" class="btn">mas</a> -->
+
             </div>
 
             <div class="box">
@@ -154,8 +152,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <!-- <span>$6.99</span>
-                <a href="#" class="btn">mas</a> -->
+
             </div>
 
             <div class="box">
@@ -170,8 +167,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <!-- <span>$6.99</span>
-                <a href="#" class="btn">mas</a> -->
+
             </div>
 
             <div class="box">
@@ -186,14 +182,14 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <!-- <span>$6.99</span>
-                <a href="#" class="btn">mas</a> -->
+
             </div>
 
         </div>
 
     </section>
     <!-- termina la seccion de platos -->
+
     <!-- comienza la seccion nosotros -->
     <section class="about" id="about">
         <h3 class="sub-heading">Acerca de nosotros</h3>
@@ -226,11 +222,12 @@
                         <span>Eventos</span>
                     </div>
                 </div>
-                <!-- <a href="#" class="btn">conoce mas</a> -->
+
             </div>
         </div>
     </section>
     <!-- termina la seccion nosotros -->
+
     <!-- comienza la seccion menu -->
     <section class="menu" id="menu">
         <h3 class="sub-heading">Nuestro Menú</h3>
@@ -410,95 +407,78 @@
         </div>
     </section>
     <!-- termina la seccion menu -->
+
     <!-- inicia seccion review -->
     <section class="review" id="review">
         <h3 class="sub-heading">Reseñas</h3>
         <h1 class="heading">Lo que dicen de nosotros</h1>
-        <div class="swiper-container review-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="./images/pic-1.png" alt="foto de usuario">
-                        <div class="user-info">
-                            <h3>Juan Perez</h3>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quaerat reiciendis possimus porro
-                        expedita facilis similique praesentium tenetur consectetur voluptate tempora alias, ducimus
-                        obcaecati. Hic aperiam illum ipsum delectus minus.</p>
-                </div>
 
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="./images/pic-2.png" alt="foto de usuario">
-                        <div class="user-info">
-                            <h3>Julia Perez</h3>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-half-alt"></i>
-                            </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/pic-1.png" class="card-img-top" alt="foto comentario">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Perez</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa error quos
+                            porro del umitir.</p>
+                        <div class="start">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quaerat reiciendis possimus porro
-                        expedita facilis similique praesentium tenetur consectetur voluptate tempora alias, ducimus
-                        obcaecati. Hic aperiam illum ipsum delectus minus.</p>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="./images/pic-3.png" alt="foto de usuario">
-                        <div class="user-info">
-                            <h3>Diego Gonzalez</h3>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                        </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 1 mins ago</small>
                     </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quaerat reiciendis possimus porro
-                        expedita facilis similique praesentium tenetur consectetur voluptate tempora alias, ducimus
-                        obcaecati. Hic aperiam illum ipsum delectus minus.</p>
                 </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="./images/pic-4.png" alt="">
-                        <div class="user-info">
-                            <h3>Daniela Lacayo</h3>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quaerat reiciendis possimus porro
-                        expedita facilis similique praesentium tenetur consectetur voluptate tempora alias, ducimus
-                        obcaecati. Hic aperiam illum ipsum delectus minus.</p>
-                </div>
-                
             </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/pic-2.png" class="card-img-top" alt="foto comentario">
+                    <div class="card-body">
+                        <h5 class="card-title">Luciana Paz</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ad atque
+                            optio!</p>
+                        <div class="start">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/pic-3.png" class="card-img-top" alt="foto comentario">
+                    <div class="card-body">
+                        <h5 class="card-title">Daniel Giron</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi modi tempore
+                            at this eco.</p>
+                        <div class="start">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 10 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
     <!-- termina seccion review -->
+
     <!-- inicia la seccion orden -->
     <section class="order" id="order">
         <h3 class="sub-heading">Reservacion en linea</h3>
@@ -539,16 +519,13 @@
                     <span>Comentario</span>
                     <textarea name="" placeholder="comentario" id="" cols="30" rows="10"></textarea>
                 </div>
-                <!-- <div class="input">
-                    <span>Comentario de la orden</span>
-                    <textarea name="" placeholder="ingresa tu comentario" id="" cols="30" rows="10"></textarea>
-                </div> -->
             </div>
 
             <input type="submit" value="haz tu reservacion" class="btn">
         </form>
     </section>
     <!-- termina la seccion orden -->
+
     <!-- comienza el footer -->
     <section class="footer" id="footer">
         <div class="box-container">
@@ -593,8 +570,12 @@
 
     </section>
     <!-- termina el footer -->
+
+    <!-- scripts -->
     <!-- cdn para el banner  -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- js para bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.jsß"></script>
     <!-- js file link -->
     <script src="./js/script.js"></script>
 </body>

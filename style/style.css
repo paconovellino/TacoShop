@@ -467,59 +467,24 @@ header .icons #menu-bars {
 
 /* esilos seccion comentarios */
 
-.review .swiper-slide{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
-}
-
-.review .slide {
-    padding: 2rem;
-    box-shadow: var(--box-shadow);
-    border: .1rem solid rgba(0, 0, 0, .2);
-    border-radius: .5rem;
-    position: relative;
-}
-
-.review .slide .fa-quote-right {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-    font-size: 6rem;
-    color: #ccc;
-
-}
-
-.review .slide .user {
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
-    padding-bottom: 1.5rem;
-}
-
-.review .slide .user img {
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
+.review .row .col img{
+    height: 17rem;
+    width: 100%;
     object-fit: cover;
+    align-self: center;
 }
 
-.review .slide .user h3 {
-    color: var(--black);
-    font-size: 2rem;
-    padding-bottom: .5rem;
-}
 
-.review .slide .user i {
-    font-size: 1.3rem;
+.review .row .col h5{
     color: var(--green);
+    font-size: 2.5rem;
 }
 
-.review .slide p {
-    font-size: 1.5rem;
-    line-height: 1.8;
+.review .row .col p{
     color: var(--light-color);
+    font-size: 1.5rem;
 }
+
 
 /* estilo para la parte de orden en linea. la voy a cambiar a reservaciones  */
 
