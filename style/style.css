@@ -3,7 +3,9 @@ si no lleva punto son elementos
 # son para los ids */
 
 /* importando fotns de google */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
 
 :root {
     --green: #27ae60;
@@ -44,13 +46,15 @@ section:nth-child(even) {
 
 .sub-heading {
     text-align: center;
-    color: var(--green);
+    font-family: 'Fugaz One';
+    color: var(--orange);
     font-size: 2rem;
     padding-top: 1rem;
 
 }
 
 .heading {
+    font-family: 'Fugaz One';
     text-align: center;
     color: var(--black);
     font-size: 3rem;
@@ -93,6 +97,11 @@ header .logo {
     color: var(--black);
     font-size: 2.5rem;
     font-weight: bolder;
+}
+
+header a{
+    font-family: 'Fugaz One';
+    text-decoration: none;
 }
 
 header .logo i {
@@ -343,6 +352,7 @@ header .icons #menu-bars {
     color: var(--green);
     font-size: 4rem;
     padding: .5rem 0;
+    font-family: 'Fugaz One';
 
 }
 
@@ -600,6 +610,7 @@ header .icons #menu-bars {
 }
 
 /* aqui van los media queries */
+
 
 @media (max-width:991px) {
     html {
