@@ -72,6 +72,7 @@ section:nth-child(even) {
 .btn:hover {
     background: var(--green);
     letter-spacing: .1rem;
+    color: #fff;
 }
 
 header {
@@ -585,8 +586,18 @@ header .icons #menu-bars {
     color: var(--green);
 }
 
+.footer .box-container .box .social{
+    display: inline;
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: .5rem;
+    color: var(--green);
+}
 
-
+.footer .box-container .box .social:hover{
+    text-decoration: none;
+    color: orange;
+}
 
 /* aqui van los media queries */
 
