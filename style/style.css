@@ -111,15 +111,15 @@ header .logo i {
     padding-right: 12px;
 }
 
-header .navbar a {
+header .navbar__bar a {
     font-size: 1.7rem;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     color: var(--dark-green);
 }
 
-header .navbar a.active,
-header .navbar a:hover {
+header .navbar__bar a.active,
+header .navbar__bar a:hover {
     color: #fff;
     background: var(--green);
 }
@@ -632,7 +632,7 @@ header .icons #menu-bars {
 
     }
 
-    header .navbar {
+    header .navbar__bar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -644,11 +644,11 @@ header .icons #menu-bars {
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
-    header .navbar.active {
+    header .navbar__bar.active {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
-    header .navbar a {
+    header .navbar__bar a {
         display: block;
         padding: 1.5rem;
         margin: 1rem;
