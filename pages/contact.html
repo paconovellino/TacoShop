@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Orden del Taco - Tacos your way</title>
+        <meta name="description" content="El autentico sabor de Mexico con los mejores ingredientes y las recetas originales.">
+        <!-- cdn para el banner -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <!-- cdn link de font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <!-- cdn a bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+        <!-- link a mi css -->
+        <link rel="stylesheet" href="../style/style.css">
+    </head>
+<body>
+    <header>
+        <a href="#" class="logo"> <i class="fa-solid fa-pepper-hot"></i>La Orden</a>
+        <nav class="navbar__bar">
+            <a href="../index.html">home</a>
+            <a href="./dishes.html">platillos</a>
+            <a href="./about.html">nosotros</a>
+            <a href="./menu.html">menú</a>
+            <a href="./review.html">reviews</a>
+            <a class="active" href="./contact.html">reservación</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+    <!-- header termina -->
+
+    <!-- boton de busqueda -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="buscar receta" name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i> 
+    </form>
+
+    <section class="order" id="order">
+        <div class="header">
+            <h3 class="sub-heading">Reservacion en linea</h3>
+        <h1 class="heading">Ya puedes realizar tus reservaciones en linea</h1>
+        </div>
+        
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>Tu nombre:</span>
+                    <input type="text" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="input">
+                    <span>Tu telefono:</span>
+                    <input type="number" placeholder="Ingresa tu numero">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Tu orden:</span>
+                    <input type="text" placeholder="Ingresa tu orden">
+                </div>
+                <div class="input">
+                    <span>Información adicional:</span>
+                    <input type="text" placeholder="Información adicional">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Cantidad de personas:</span>
+                    <input type="number" placeholder="Cantidad de personas">
+                </div>
+                <div class="input">
+                    <span>Fecha y hora:</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Comentario:</span>
+                    <textarea name="" placeholder="Comentario" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="haz tu reservación" class="btn">
+        </form>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Ubicaciones</h3>
+                <a href="#">La Mascota</a>
+                <a href="#">Santa Elena</a>
+                <a href="#">La Gran Via</a>
+                <a href="#">Multiplaza</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">inicio</a>
+                <a href="#dishes">platillos</a>
+                <a href="#about">nosotros</a>
+                <a href="#menu">menu</a>
+                <a href="#review">review</a>
+                <a href="#order">reservaciones</a>
+            </div>
+
+            <div class="box">
+                <h3>contacto</h3>
+                <a href="#">+503 8795-2022</a>
+                <a href="#">+503 2211-2011</a>
+                <a href="#">info[@]laorden.com.sv</a>
+                <a href="#">reservaciones[@]laorden.com.sv</a>
+                <a href="#">San Salvador, El Salvador</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="http://facebook.com" class="social fa-brands fa-square-facebook"></a>
+                <a href="http://instagram.com" class="social fa-brands fa-square-instagram"></a>
+                <a href="http://tiktok.com" class="social fa-brands fa-tiktok"></a>
+                <a href="http://twitter.com" class="social fa-brands fa-square-twitter"></a>
+            </div>
+
+        </div>
+
+        <div class="credit"> Copyright @ 2022 Todos los derechos reservados</div>
+
+    </section>
+
+    <!-- scripts -->
+    <!-- cdn para el banner  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- js para bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.jsß"></script>
+    <!-- js file link -->
+    <script src="../js/script.js"></script>
+</body>
+</html>

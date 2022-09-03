@@ -17,6 +17,7 @@ si no lleva punto son elementos
     --dark-green: rgb(51, 178, 51);
 }
 
+
 * {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -477,6 +478,33 @@ header .icons #menu-bars {
 }
 
 /* esilos seccion comentarios */
+
+.review .header{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.order .header{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+.menu .header{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+.about .header{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.dishes .header{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
 
 .review .row .col img{
     height: 17rem;
