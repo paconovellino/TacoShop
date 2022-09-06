@@ -27,7 +27,8 @@ si no lleva punto son elementos
     outline: none;
     border: none;
     text-transform: capitalize;
-    transition: all .2s linear;
+    /* con esta transicion se mueve al cambiar */
+    transition: all .2s linear; 
 }
 
 html {
