@@ -30,7 +30,7 @@ section:nth-child(even) {
 .sub-heading {
   text-align: center;
   font-family: "Fugaz One";
-  color: var(--orange);
+  color: orange;
   font-size: 2rem;
   padding-top: 1rem;
 }
@@ -38,7 +38,7 @@ section:nth-child(even) {
 .heading {
   font-family: "Fugaz One";
   text-align: center;
-  color: var(--black);
+  color: #192a56;
   font-size: 3rem;
   padding-bottom: 2rem;
   text-transform: uppercase;
@@ -49,14 +49,14 @@ section:nth-child(even) {
   display: inline-block;
   font-size: 1.7rem;
   color: #fff;
-  background: var(--black);
+  background: #192a56;
   border-radius: 0.5rem;
   cursor: pointer;
   padding: 0.8rem 3rem;
 }
 
 .btn:hover {
-  background: var(--green);
+  background: #27ae60;
   letter-spacing: 0.1rem;
   color: #fff;
 }
@@ -72,11 +72,11 @@ header {
   align-items: center;
   justify-content: space-between;
   z-index: 1000;
-  box-shadow: var(--box-shadow);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
-  color: var(--black);
+  color: #27ae60;
   font-size: 2.5rem;
   font-weight: bolder;
 }
@@ -87,7 +87,7 @@ header a {
 }
 
 header .logo i {
-  color: var(--orange);
+  color: orange;
   font-size: 2.5rem;
   font-weight: bolder;
   padding-right: 12px;
@@ -97,13 +97,13 @@ header .navbar__bar a {
   font-size: 1.7rem;
   border-radius: 0.5rem;
   padding: 0.5rem 1.5rem;
-  color: var(--dark-green);
+  color: rgb(51, 178, 51);
 }
 
 header .navbar__bar a.active,
 header .navbar__bar a:hover {
   color: #fff;
-  background: var(--green);
+  background: #27ae60;
 }
 
 header .icons i,
@@ -115,7 +115,7 @@ header .icons a {
   width: 4.5rem;
   text-align: center;
   font-size: 1.7rem;
-  color: var(--black);
+  color: #192a56;
   border-radius: 50%;
   background: whitesmoke;
 }
@@ -123,7 +123,7 @@ header .icons a {
 header .icons i:hover,
 header .icons a:hover {
   color: #fff;
-  background: var(--green);
+  background: #27ae60;
   transform: rotate(360deg);
 }
 
@@ -182,7 +182,7 @@ header .icons #menu-bars {
 }
 
 #search-form label:hover {
-  color: var(--green);
+  color: #27ae60;
 }
 
 #search-form #close {
@@ -215,24 +215,24 @@ header .icons #menu-bars {
 }
 
 .home .home-slider .slide .content span {
-  color: var(--green);
+  color: #27ae60;
   font-size: 2.5rem;
 }
 
 .home .home-slider .slide .content h3 {
-  color: var(--black);
+  color: #192a56;
   font-size: 7rem;
 }
 
 .home .home-slider .slide .content p {
-  color: var(--light-color);
+  color: #665;
   font-size: 2.2rem;
   padding: 0.5rem 0;
   line-height: 1.5;
 }
 
 .swiper-pagination-bullet-active {
-  background: var(--green);
+  background: #27ae60;
 }
 
 /* el container para que se hagan los cuadros de la section de platos */
@@ -247,7 +247,7 @@ header .icons #menu-bars {
   background: #fff;
   border-radius: 0.5rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
-  box-shadow: var(--box-shadow);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -263,12 +263,12 @@ header .icons #menu-bars {
   width: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  color: var(--black);
+  color: #192a56;
 }
 
 .dishes .box-container .box .fa-heart:hover,
 .dishes .box-container .box .fa-eye:hover {
-  background: var(--green);
+  background: #27ae60;
   color: #fff;
 }
 
@@ -297,7 +297,7 @@ header .icons #menu-bars {
 }
 
 .dishes .box-container .box h3 {
-  color: var(--green);
+  color: #27ae60;
   font-size: 2.5rem;
 }
 
@@ -307,11 +307,11 @@ header .icons #menu-bars {
 
 .dishes .box-container .box .stars i .fa-solid, .fas {
   font-size: 1.7rem;
-  color: var(--orange);
+  color: orange;
 }
 
 .dishes .box-container .box span {
-  color: var(--green);
+  color: #27ae60;
   font-weight: bolder;
   margin-right: 1rem;
   font-size: 2.5rem;
@@ -337,14 +337,14 @@ header .icons #menu-bars {
 }
 
 .about .row .content h3 {
-  color: var(--green);
+  color: #27ae60;
   font-size: 4rem;
   padding: 0.5rem 0;
   font-family: "Fugaz One";
 }
 
 .about .row .content p {
-  color: var(--light-color);
+  color: #665;
   font-size: 1.5rem;
   padding: 0.5rem 0;
   line-height: 2;
@@ -372,12 +372,12 @@ header .icons #menu-bars {
 
 .about .row .content .icons-container .icons i {
   font-size: 2.5rem;
-  color: var(--black);
+  color: #192a56;
 }
 
 .about .row .content .icons-container .icons span {
   font-size: 1.5rem;
-  color: var(--green);
+  color: #27ae60;
 }
 
 /* estilos de seccion menu */
@@ -391,7 +391,7 @@ header .icons #menu-bars {
   background: #fff;
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
-  box-shadow: var(--box-shadow);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 
 .menu .box-container .box .image {
@@ -421,11 +421,11 @@ header .icons #menu-bars {
   font-size: 2.5rem;
   background: #fff;
   border-radius: 50%;
-  color: var(--green);
+  color: #27ae60;
 }
 
 .menu .box-container .box .image .fa-heart:hover {
-  background-color: var(--green);
+  background-color: #27ae60;
   color: #fff;
 }
 
@@ -440,23 +440,23 @@ header .icons #menu-bars {
 
 .menu .box-container .box .content .stars i {
   font-size: 1.7rem;
-  color: var(--green);
+  color: #27ae60;
 }
 
 .menu .box-container .box .content h3 {
-  color: var(--black);
+  color: #192a56;
   font-size: 2.5rem;
 }
 
 .menu .box-container .box .content p {
-  color: var(--light-color);
+  color: #665;
   font-size: 1.6rem;
   padding: 2rem 0;
   line-height: 1.5;
 }
 
 .menu .box-container .box .content .price {
-  color: var(--green);
+  color: #27ae60;
   font-size: 2.5rem;
   margin-left: 1rem;
   font-weight: bolder;
@@ -497,12 +497,12 @@ header .icons #menu-bars {
 }
 
 .review .row .col h5 {
-  color: var(--green);
+  color: #27ae60;
   font-size: 2.5rem;
 }
 
 .review .row .col p {
-  color: var(--light-color);
+  color: #665;
   font-size: 1.5rem;
 }
 
@@ -510,7 +510,7 @@ header .icons #menu-bars {
 .order form {
   max-width: 90rem;
   border-radius: 0.5rem;
-  box-shadow: var(--box-shadow);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   background: #fff;
   padding: 1.5rem;
@@ -531,7 +531,7 @@ header .icons #menu-bars {
   display: block;
   padding: 0.5rem 0;
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: #665;
 }
 
 .order form .inputBox .input input,
@@ -540,7 +540,7 @@ header .icons #menu-bars {
   border-radius: 0.5rem;
   padding: 1rem;
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: #665;
   text-transform: none;
   margin-bottom: 1rem;
   width: 100%;
@@ -548,7 +548,7 @@ header .icons #menu-bars {
 
 .order form .inputBox .input input:focus,
 .order form .inputBox .input textarea:focus {
-  border: 0.1rem solid var(--green);
+  border: 0.1rem solid #27ae60;
 }
 
 .order form .inputBox .input textarea {
@@ -570,19 +570,19 @@ header .icons #menu-bars {
 .footer .box-container .box h3 {
   padding: 0.5rem 0;
   font-size: 2.5rem;
-  color: var(--black);
+  color: #192a56;
 }
 
 .footer .box-container .box a {
   display: block;
   padding: 0.5rem 0;
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: #665;
   text-decoration: none;
 }
 
 .footer .box-container .box a:hover {
-  color: var(--green);
+  color: #27ae60;
   text-decoration: underline;
 }
 
@@ -590,7 +590,7 @@ header .icons #menu-bars {
   text-align: center;
   border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
   font-size: 1.5rem;
-  color: var(--black);
+  color: #192a56;
   padding: 0.5rem;
   padding-top: 1.5rem;
   margin-top: 1.5rem;
@@ -599,7 +599,7 @@ header .icons #menu-bars {
 .footer .box-container .box i {
   font-size: 2.5rem;
   padding: 0.5rem;
-  color: var(--green);
+  color: #27ae60;
 }
 
 .footer .box-container .box .social {
@@ -607,7 +607,7 @@ header .icons #menu-bars {
   text-decoration: none;
   font-size: 2.5rem;
   padding: 0.5rem;
-  color: var(--green);
+  color: #27ae60;
 }
 
 .footer .box-container .box .social:hover {

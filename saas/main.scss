@@ -40,7 +40,7 @@ section:nth-child(even) {
 .sub-heading {
     text-align: center;
     font-family: 'Fugaz One';
-    color: var(--orange);
+    color: $orange;
     font-size: 2rem;
     padding-top: 1rem;
 
@@ -49,7 +49,7 @@ section:nth-child(even) {
 .heading {
     font-family: 'Fugaz One';
     text-align: center;
-    color: var(--black);
+    color: $black;
     font-size: 3rem;
     padding-bottom: 2rem;
     text-transform: uppercase;
@@ -60,14 +60,14 @@ section:nth-child(even) {
     display: inline-block;
     font-size: 1.7rem;
     color: #fff;
-    background: var(--black);
+    background: $black;
     border-radius: .5rem;
     cursor: pointer;
     padding: .8rem 3rem;
 }
 
 .btn:hover {
-    background: var(--green);
+    background: $green;
     letter-spacing: .1rem;
     color: #fff;
 }
@@ -83,11 +83,11 @@ header {
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    box-shadow: var(--box-shadow);
+    box-shadow: $box-shadow;
 }
 
 header .logo {
-    color: var(--black);
+    color: $green;
     font-size: 2.5rem;
     font-weight: bolder;
 }
@@ -98,7 +98,7 @@ header a{
 }
 
 header .logo i {
-    color: var(--orange);
+    color: $orange;
     font-size: 2.5rem;
     font-weight: bolder;
     padding-right: 12px;
@@ -108,13 +108,13 @@ header .navbar__bar a {
     font-size: 1.7rem;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
-    color: var(--dark-green);
+    color: $dark-green;
 }
 
 header .navbar__bar a.active,
 header .navbar__bar a:hover {
     color: #fff;
-    background: var(--green);
+    background: $green;
 }
 
 header .icons i,
@@ -126,7 +126,7 @@ header .icons a {
     width: 4.5rem;
     text-align: center;
     font-size: 1.7rem;
-    color: var(--black);
+    color: $black;
     border-radius: 50%;
     background: whitesmoke;
 }
@@ -134,7 +134,7 @@ header .icons a {
 header .icons i:hover,
 header .icons a:hover {
     color: #fff;
-    background: var(--green);
+    background: $green;
     transform: rotate(360deg);
 }
 
@@ -186,7 +186,7 @@ header .icons #menu-bars {
 }
 
 #search-form label:hover {
-    color: var(--green);
+    color: $green;
 }
 
 #search-form #close {
@@ -219,24 +219,24 @@ header .icons #menu-bars {
 }
 
 .home .home-slider .slide .content span {
-    color: var(--green);
+    color: $green;
     font-size: 2.5rem;
 }
 
 .home .home-slider .slide .content h3 {
-    color: var(--black);
+    color: $black;
     font-size: 7rem;
 }
 
 .home .home-slider .slide .content p {
-    color: var(--light-color);
+    color: $light-color;
     font-size: 2.2rem;
     padding: .5rem 0;
     line-height: 1.5;
 }
 
 .swiper-pagination-bullet-active {
-    background: var(--green);
+    background: $green;
 }
 
 /* el container para que se hagan los cuadros de la section de platos */
@@ -252,7 +252,7 @@ header .icons #menu-bars {
     background: #fff;
     border-radius: .5rem;
     border: .1rem solid rgba(0, 0, 0, .2);
-    box-shadow: var(--box-shadow);
+    box-shadow: $box-shadow;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -268,12 +268,12 @@ header .icons #menu-bars {
     width: 5rem;
     line-height: 5rem;
     font-size: 2rem;
-    color: var(--black);
+    color: $black;
 }
 
 .dishes .box-container .box .fa-heart:hover,
 .dishes .box-container .box .fa-eye:hover {
-    background: var(--green);
+    background: $green;
     color: #fff;
 }
 
@@ -301,7 +301,7 @@ header .icons #menu-bars {
 }
 
 .dishes .box-container .box h3 {
-    color: var(--green);
+    color: $green;
     font-size: 2.5rem;
 }
 
@@ -311,11 +311,11 @@ header .icons #menu-bars {
 
 .dishes .box-container .box .stars i .fa-solid, .fas {
     font-size: 1.7rem;
-    color: var(--orange);
+    color: $orange;
 }
 
 .dishes .box-container .box span {
-    color: var(--green);
+    color: $green;
     font-weight: bolder;
     margin-right: 1rem;
     font-size: 2.5rem;
@@ -342,7 +342,7 @@ header .icons #menu-bars {
 
 
 .about .row .content h3 {
-    color: var(--green);
+    color: $green;
     font-size: 4rem;
     padding: .5rem 0;
     font-family: 'Fugaz One';
@@ -350,7 +350,7 @@ header .icons #menu-bars {
 }
 
 .about .row .content p {
-    color: var(--light-color);
+    color: $light-color;
     font-size: 1.5rem;
     padding: .5rem 0;
     line-height: 2;
@@ -378,12 +378,12 @@ header .icons #menu-bars {
 
 .about .row .content .icons-container .icons i {
     font-size: 2.5rem;
-    color: var(--black);
+    color: $black;
 }
 
 .about .row .content .icons-container .icons span {
     font-size: 1.5rem;
-    color: var(--green);
+    color: $green;
 }
 
 /* estilos de seccion menu */
@@ -398,7 +398,7 @@ header .icons #menu-bars {
     background: #fff;
     border: .1rem solid rgba(0, 0, 0, .2);
     border-radius: .5rem;
-    box-shadow: var(--box-shadow);
+    box-shadow: $box-shadow;
 }
 
 .menu .box-container .box .image {
@@ -427,11 +427,11 @@ header .icons #menu-bars {
     font-size: 2.5rem;
     background: #fff;
     border-radius: 50%;
-    color: var(--green);
+    color: $green;
 }
 
 .menu .box-container .box .image .fa-heart:hover {
-    background-color: var(--green);
+    background-color: $green;
     color: #fff;
 
 }
@@ -447,23 +447,23 @@ header .icons #menu-bars {
 
 .menu .box-container .box .content .stars i {
     font-size: 1.7rem;
-    color: var(--green);
+    color: $green;
 }
 
 .menu .box-container .box .content h3 {
-    color: var(--black);
+    color: $black;
     font-size: 2.5rem;
 }
 
 .menu .box-container .box .content p {
-    color: var(--light-color);
+    color: $light-color;
     font-size: 1.6rem;
     padding: 2rem 0;
     line-height: 1.5;
 }
 
 .menu .box-container .box .content .price {
-    color: var(--green);
+    color: $green;
     font-size: 2.5rem;
     margin-left: 1rem;
     font-weight: bolder;
@@ -507,12 +507,12 @@ header .icons #menu-bars {
 
 
 .review .row .col h5{
-    color: var(--green);
+    color: $green;
     font-size: 2.5rem;
 }
 
 .review .row .col p{
-    color: var(--light-color);
+    color: $light-color;
     font-size: 1.5rem;
 }
 
@@ -522,7 +522,7 @@ header .icons #menu-bars {
 .order form {
     max-width: 90rem;
     border-radius: .5rem;
-    box-shadow: var(--box-shadow);
+    box-shadow: $box-shadow;
     border: .1rem solid rgba(0, 0, 0, .2);
     background: #fff;
     padding: 1.5rem;
@@ -543,7 +543,7 @@ header .icons #menu-bars {
     display: block;
     padding: .5rem 0;
     font-size: 1.5rem;
-    color: var(--light-color);
+    color: $light-color;
 }
 
 .order form .inputBox .input input,
@@ -553,7 +553,7 @@ header .icons #menu-bars {
     border-radius: .5rem;
     padding: 1rem;
     font-size: 1.5rem;
-    color: var(--light-color);
+    color: $light-color;
     text-transform: none;
     margin-bottom: 1rem;
     width: 100%;
@@ -561,7 +561,7 @@ header .icons #menu-bars {
 
 .order form .inputBox .input input:focus,
 .order form .inputBox .input textarea:focus{
-    border: .1rem solid var(--green);
+    border: .1rem solid $green;
 }
 
 .order form .inputBox .input textarea{
@@ -584,19 +584,19 @@ header .icons #menu-bars {
 .footer .box-container .box h3{
     padding: .5rem 0; 
     font-size: 2.5rem;
-    color: var(--black);
+    color: $black;
 }
 
 .footer .box-container .box a{
     display: block;
     padding: .5rem 0;
     font-size: 1.5rem;
-    color: var(--light-color);
+    color: $light-color;
     text-decoration: none;
 }
 
 .footer .box-container .box a:hover{
-    color: var(--green);
+    color: $green;
     text-decoration: underline;
 }
 
@@ -604,7 +604,7 @@ header .icons #menu-bars {
     text-align: center;
     border-top: .1rem solid rgba(0, 0, 0, .2);
     font-size: 1.5rem;
-    color: var(--black);
+    color: $black;
     padding: .5rem;
     padding-top: 1.5rem;
     margin-top: 1.5rem;
@@ -614,7 +614,7 @@ header .icons #menu-bars {
 .footer .box-container .box i{
     font-size: 2.5rem;
     padding: .5rem;
-    color: var(--green);
+    color: $green;
 }
 
 .footer .box-container .box .social{
@@ -622,12 +622,12 @@ header .icons #menu-bars {
     text-decoration: none;
     font-size: 2.5rem;
     padding: .5rem;
-    color: var(--green);
+    color: $green;
 }
 
 .footer .box-container .box .social:hover{
     text-decoration: none;
-    color: orange;
+    color:$orange;
 }
 
 /* aqui van los media queries */
