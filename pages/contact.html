@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>La Orden del Taco - Tacos your way</title>
-        <meta name="description" content="El autentico sabor de Mexico con los mejores ingredientes y las recetas originales.">
-        <!-- cdn para el banner -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-        <!-- cdn link de font awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-        <!-- cdn a bootstrap -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-        <!-- link a mi css -->
-        <link rel="stylesheet" href="../style/style.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Orden del Taco - Tacos your way</title>
+    <meta name="description"
+        content="El autentico sabor de Mexico con los mejores ingredientes y las recetas originales.">
+    <!-- cdn para el banner -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- cdn link de font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- cdn a bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- link a mi css -->
+    <link rel="stylesheet" href="../saas/main.css">
+</head>
+
 <body>
     <header>
         <a href="../index.html" class="logo"> <i class="fa-solid fa-pepper-hot"></i>La Orden</a>
@@ -40,84 +43,93 @@
     <form action="" id="search-form">
         <input type="search" placeholder="buscar receta" name="" id="search-box">
         <label for="search-box" class="fas fa-search"></label>
-        <i class="fas fa-times" id="close"></i> 
+        <i class="fas fa-times" id="close"></i>
     </form>
 
-    <section class="order" id="order">
-        <div class="header">
-            <h3 class="sub-heading">Reservacion en linea</h3>
-        <h1 class="heading">Ya puedes realizar tus reservaciones en linea</h1>
-        </div>
-        
-        <form action="">
-            <div class="inputBox">
-                <div class="input">
-                    <span>Tu nombre:</span>
-                    <input type="text" placeholder="Ingresa tu nombre">
-                </div>
-                <div class="input">
-                    <span>Tu telefono:</span>
-                    <input type="number" placeholder="Ingresa tu numero">
-                </div>
-            </div>
-            <div class="inputBox">
-                <div class="input">
-                    <span>Tu orden:</span>
-                    <input type="text" placeholder="Ingresa tu orden">
-                </div>
-                <div class="input">
-                    <span>Información adicional:</span>
-                    <input type="text" placeholder="Información adicional">
-                </div>
-            </div>
-            <div class="inputBox">
-                <div class="input">
-                    <span>Cantidad de personas:</span>
-                    <input type="number" placeholder="Cantidad de personas">
-                </div>
-                <div class="input">
-                    <span>Fecha y hora:</span>
-                    <input type="datetime-local">
-                </div>
-            </div>
-            <div class="inputBox">
-                <div class="input">
-                    <span>Comentario:</span>
-                    <textarea name="" placeholder="Comentario" id="" cols="30" rows="10"></textarea>
-                </div>
+    <main>
+        <section class="order" id="order">
+            <div class="header">
+                <h3 class="sub-heading">Reservacion en linea</h3>
+                <h1 class="heading">Ya puedes realizar tus reservaciones en linea</h1>
             </div>
 
-            <input type="submit" value="haz tu reservación" class="btn">
-        </form>
-    </section>
+            <form action="">
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Tu nombre:</span>
+                        <label for="Name"></label>
+                        <input type="text" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="input">
+                        <span>Tu telefono:</span>
+                        <label for="Nymber"></label>
+                        <input type="number" placeholder="Ingresa tu numero">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Tu orden:</span>
+                        <label for="Order"></label>
+                        <input type="text" placeholder="Ingresa tu orden">
+                    </div>
+                    <div class="input">
+                        <span>Información adicional:</span>
+                        <label for="Other"></label>
+                        <input type="text" placeholder="Información adicional">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Cantidad de personas:</span>
+                        <label for="party"></label>
+                        <input type="number" placeholder="Cantidad de personas">
+                    </div>
+                    <div class="input">
+                        <span>Fecha y hora:</span>
+                        <label for="Date"></label>
+                        <input type="datetime-local">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Comentario:</span>
+                        <label for="Comment"></label>
+                        <textarea name="" placeholder="Comentario" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
 
-    <section class="footer" id="footer">
+                <input type="submit" value="haz tu reservación" class="btn">
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
         <div class="box-container">
             <div class="box">
                 <h3>Ubicaciones</h3>
-                <a href="#">La Mascota</a>
-                <a href="#">Santa Elena</a>
-                <a href="#">La Gran Via</a>
-                <a href="#">Multiplaza</a>
+                <p> La Mascota</p>
+                <p> Santa Elena</p>
+                <p> La Gran Via</p>
+                <p> Multiplaza</p>
             </div>
 
             <div class="box">
                 <h3>quick links</h3>
-                <a href="#home">inicio</a>
-                <a href="#dishes">platillos</a>
-                <a href="#about">nosotros</a>
-                <a href="#menu">menu</a>
-                <a href="#review">review</a>
-                <a href="#order">reservaciones</a>
+                <a href="../index.html">home</a>
+                <a href="./dishes.html">platillos</a>
+                <a href="./about.html">nosotros</a>
+                <a href="./menu.html">menú</a>
+                <a href="./review.html">reviews</a>
+                <a href="./contact.html">reservación</a>
             </div>
 
             <div class="box">
                 <h3>contacto</h3>
-                <a href="#">+503 8795-2022</a>
-                <a href="#">+503 2211-2011</a>
-                <a href="#">info[@]laorden.com.sv</a>
-                <a href="#">reservaciones[@]laorden.com.sv</a>
-                <a href="#">San Salvador, El Salvador</a>
+                <p> +503 8795-2022</p>
+                <p> +503 2211-2011</p>
+                <p> info[@]laorden.com.sv</p>
+                <p> reservaciones[@]laorden.com.sv</p>
+                <p> San Salvador, El Salvador</p>
             </div>
 
             <div class="box">
@@ -130,9 +142,11 @@
 
         </div>
 
-        <div class="credit"> Copyright @ 2022 Todos los derechos reservados</div>
+        <div class="credit">
+            <p> Copyright @ 2022 Todos los derechos reservados </p>
+        </div>
 
-    </section>
+    </footer>
 
     <!-- scripts -->
     <!-- cdn para el banner  -->
@@ -142,4 +156,5 @@
     <!-- js file link -->
     <script src="../js/script.js"></script>
 </body>
+
 </html>

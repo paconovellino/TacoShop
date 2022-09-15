@@ -23,12 +23,14 @@
     <header>
         <a href="index.html" class="logo"> <i class="fa-solid fa-pepper-hot"></i>La Orden</a>
         <nav class="navbar__bar">
-            <a class="active" href="index.html">home</a>
-            <a href="./pages/dishes.html">platillos</a>
-            <a href="./pages/about.html">nosotros</a>
-            <a href="./pages/menu.html">menú</a>
-            <a href="./pages/review.html">reviews</a>
-            <a href="./pages/contact.html">reservación</a>
+            <ul class="nav__links">
+                <li><a class="active" href="index.html">home</a></li>
+                <li><a href="./pages/dishes.html">platillos</a></li>
+                <li><a href="./pages/about.html">nosotros</a>
+                <li><a href="./pages/menu.html">menú</a></li>
+                <li><a href="./pages/review.html">reviews</a></li>
+                <li><a href="./pages/contact.html">reservación</a></li>
+            </ul>
         </nav>
         <div class="icons">
             <i class="fas fa-bars" id="menu-bars"></i>
@@ -47,82 +49,84 @@
         <i class="fas fa-times" id="close"></i>
     </form>
     <!-- section de home incia es el mismo section que va al css-->
-    <section class="home" id="home">
-        <div class="swiper home-slider">
-            <div class="swiper-wrapper wrapper">
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Nuestros Tacos</span>
-                        <h3>Tacos al Pastor</h3>
-                        <p>En julio de 2019, fueron elegidos como la mejor comida del mundo por el sitio de guía
-                            gastronómica Taste Atlas.</p>
-                        <a href="#" class="btn">Ordena aqui</a>
+    <main>
+        <section class="home" id="home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Nuestros Tacos</span>
+                            <h3>Tacos al Pastor</h3>
+                            <p>En julio de 2019, fueron elegidos como la mejor comida del mundo por el sitio de guía
+                                gastronómica Taste Atlas.</p>
+                            <a href="#" class="btn">Ordena aqui</a>
+                        </div>
+                        <div class="image">
+                            <img src="./images/home-img-1.png" alt="Foto de tacos de chorizo">
+                        </div>
                     </div>
-                    <div class="image">
-                        <img src="./images/home-img-1.png" alt="Foto de tacos de chorizo">
+                    <!-- slider 2 de imagenes -->
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Nuestros Tacos</span>
+                            <h3>Tacos de Barbacoa</h3>
+                            <p>No necesitarás un horno excavado en el suelo ni tendrás que viajar hasta Guadalajara para
+                                probar unos tacos de barbacoa.</p>
+                            <a href="#" class="btn">Ordena aqui</a>
+                        </div>
+                        <div class="image">
+                            <img src="./images/home-img-2.png" alt="Foto de tacos de pollo">
+                        </div>
+                    </div>
+                    <!-- slide 3 del home -->
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Nuestros Tacos</span>
+                            <h3>Tacos de Birria</h3>
+                            <p>Originarios del estado mexicano de Jalisco, estos tacos de birria de res cocinados a fuego
+                                lento se marinan en adobo, vinagre y chiles anchos secos.</p>
+                            <a href="#" class="btn">Ordena aqui</a>
+                        </div>
+                        <div class="image">
+                            <img src="./images/home-img-3.png" alt="Foto de tacos de papa con huevo y queso">
+                        </div>
                     </div>
                 </div>
-                <!-- slider 2 de imagenes -->
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Nuestros Tacos</span>
-                        <h3>Tacos de Barbacoa</h3>
-                        <p>No necesitarás un horno excavado en el suelo ni tendrás que viajar hasta Guadalajara para
-                            probar unos tacos de barbacoa.</p>
-                        <a href="#" class="btn">Ordena aqui</a>
-                    </div>
-                    <div class="image">
-                        <img src="./images/home-img-2.png" alt="Foto de tacos de pollo">
-                    </div>
-                </div>
-                <!-- slide 3 del home -->
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Nuestros Tacos</span>
-                        <h3>Tacos de Birria</h3>
-                        <p>Originarios del estado mexicano de Jalisco, estos tacos de birria de res cocinados a fuego
-                            lento se marinan en adobo, vinagre y chiles anchos secos.</p>
-                        <a href="#" class="btn">Ordena aqui</a>
-                    </div>
-                    <div class="image">
-                        <img src="./images/home-img-3.png" alt="Foto de tacos de papa con huevo y queso">
-                    </div>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-pagination"></div>
-        </div>
-    </section>
+        </section>
+    </main>
+
     <!-- section de home termina -->
 
-
     <!-- comienza el footer -->
-    <section class="footer" id="footer">
+    <footer class="footer" id="footer">
         <div class="box-container">
             <div class="box">
                 <h3>Ubicaciones</h3>
-                <a href="#">La Mascota</a>
-                <a href="#">Santa Elena</a>
-                <a href="#">La Gran Via</a>
-                <a href="#">Multiplaza</a>
+                <p> La Mascota</p>
+                <p> Santa Elena</p>
+                <p> La Gran Via</p>
+                <p> Multiplaza</p>
             </div>
 
             <div class="box">
                 <h3>quick links</h3>
-                <a href="#home">inicio</a>
-                <a href="#dishes">platillos</a>
-                <a href="#about">nosotros</a>
-                <a href="#menu">menu</a>
-                <a href="#review">review</a>
-                <a href="#order">reservaciones</a>
+                <a href="/index.html">home</a>
+                <a href="../pages/dishes.html">platillos</a>
+                <a href="../pages/about.html">nosotros</a>
+                <a href="../pages/menu.html">menú</a>
+                <a href="../pages/review.html">reviews</a>
+                <a href="../pages/contact.html">reservación</a>
             </div>
 
             <div class="box">
                 <h3>contacto</h3>
-                <a href="#">+503 8795-2022</a>
-                <a href="#">+503 2211-2011</a>
-                <a href="#">info[@]laorden.com.sv</a>
-                <a href="#">reservaciones[@]laorden.com.sv</a>
-                <a href="#">San Salvador, El Salvador</a>
+                <p> +503 8795-2022</p>
+                <p> +503 2211-2011</p>
+                <p> info[@]laorden.com.sv</p>
+                <p> reservaciones[@]laorden.com.sv</p>
+                <p> San Salvador, El Salvador</p>
             </div>
 
             <div class="box">
@@ -135,9 +139,11 @@
 
         </div>
 
-        <div class="credit"> Copyright @ 2022 Todos los derechos reservados</div>
+        <div class="credit"> 
+        <p> Copyright @ 2022 Todos los derechos reservados </p> 
+        </div>
 
-    </section>
+    </footer>
     <!-- termina el footer -->
 
     <!-- scripts -->

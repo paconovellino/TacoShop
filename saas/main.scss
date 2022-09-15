@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito:wght@200;300;400;600;700&display=swap');
 
 $green: #27ae60;
@@ -19,7 +18,7 @@ $dark-green: rgb(51, 178, 51);
     border: none;
     text-transform: capitalize;
     /* con esta transicion se mueve al cambiar */
-    transition: all .2s linear; 
+    transition: all .2s linear;
 }
 
 html {
@@ -34,7 +33,7 @@ section {
 }
 
 section:nth-child(even) {
-    background: #eee;
+    background: rgba(238, 238, 238, 0.707);
 }
 
 .sub-heading {
@@ -92,7 +91,7 @@ header .logo {
     font-weight: bolder;
 }
 
-header a{
+header a {
     font-family: 'Fugaz One';
     text-decoration: none;
 }
@@ -109,6 +108,12 @@ header .navbar__bar a {
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     color: $dark-green;
+
+}
+
+header .nav__links li {
+    display: inline-block;
+    text-decoration: none;
 }
 
 header .navbar__bar a.active,
@@ -309,7 +314,8 @@ header .icons #menu-bars {
     padding: 1.5rem 0;
 }
 
-.dishes .box-container .box .stars i .fa-solid, .fas {
+.dishes .box-container .box .stars i .fa-solid,
+.fas {
     font-size: 1.7rem;
     color: $orange;
 }
@@ -471,25 +477,27 @@ header .icons #menu-bars {
 
 /* esilos seccion comentarios */
 
-.review .header{
+.review .header {
     padding-top: 7rem;
     padding-bottom: 2rem;
 }
 
-.order .header{
-    padding-top: 7rem;
-    padding-bottom: 2rem;
-}
-.menu .header{
-    padding-top: 7rem;
-    padding-bottom: 2rem;
-}
-.about .header{
+.order .header {
     padding-top: 7rem;
     padding-bottom: 2rem;
 }
 
-.dishes .header{
+.menu .header {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.about .header {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.dishes .header {
     padding-top: 7rem;
     padding-bottom: 2rem;
 }
@@ -498,7 +506,7 @@ header .icons #menu-bars {
 
 
 
-.review .row .col img{
+.review .row .col img {
     height: 17rem;
     width: 100%;
     object-fit: cover;
@@ -506,12 +514,12 @@ header .icons #menu-bars {
 }
 
 
-.review .row .col h5{
+.review .row .col h5 {
     color: $green;
     font-size: 2.5rem;
 }
 
-.review .row .col p{
+.review .row .col p {
     color: $light-color;
     font-size: 1.5rem;
 }
@@ -547,8 +555,7 @@ header .icons #menu-bars {
 }
 
 .order form .inputBox .input input,
-.order form .inputBox .input textarea
-{
+.order form .inputBox .input textarea {
     background: #eee;
     border-radius: .5rem;
     padding: 1rem;
@@ -560,34 +567,37 @@ header .icons #menu-bars {
 }
 
 .order form .inputBox .input input:focus,
-.order form .inputBox .input textarea:focus{
+.order form .inputBox .input textarea:focus {
     border: .1rem solid $green;
 }
 
-.order form .inputBox .input textarea{
+.order form .inputBox .input textarea {
     height: 20rem;
     resize: none;
 }
 
-.order form .btn{
+.order form .btn {
     margin-top: 0;
 }
 
 /* aqui va el estilo del footer */
 
+
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
+    gap: 1.5rem;
+    background-color: rgb(244, 244, 244);
+    justify-items: center;
 }
 
-.footer .box-container .box h3{
-    padding: .5rem 0; 
+.footer .box-container .box h3 {
+    padding: .5rem 0;
     font-size: 2.5rem;
     color: $black;
 }
 
-.footer .box-container .box a{
+.footer .box-container .box a {
     display: block;
     padding: .5rem 0;
     font-size: 1.5rem;
@@ -595,29 +605,28 @@ header .icons #menu-bars {
     text-decoration: none;
 }
 
-.footer .box-container .box a:hover{
+.footer .box-container .box a:hover {
     color: $green;
     text-decoration: underline;
 }
 
-.footer .credit{
+.footer .credit {
     text-align: center;
     border-top: .1rem solid rgba(0, 0, 0, .2);
     font-size: 1.5rem;
     color: $black;
     padding: .5rem;
     padding-top: 1.5rem;
-    margin-top: 1.5rem;
-
+    background-color: rgb(244, 244, 244);
 }
 
-.footer .box-container .box i{
+.footer .box-container .box i {
     font-size: 2.5rem;
     padding: .5rem;
     color: $green;
 }
 
-.footer .box-container .box .social{
+.footer .box-container .box .social {
     display: inline;
     text-decoration: none;
     font-size: 2.5rem;
@@ -625,9 +634,9 @@ header .icons #menu-bars {
     color: $green;
 }
 
-.footer .box-container .box .social:hover{
+.footer .box-container .box .social:hover {
     text-decoration: none;
-    color:$orange;
+    color: $orange;
 }
 
 /* aqui van los media queries */

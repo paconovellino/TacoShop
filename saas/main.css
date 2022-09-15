@@ -24,7 +24,7 @@ section {
 }
 
 section:nth-child(even) {
-  background: #eee;
+  background: rgba(238, 238, 238, 0.707);
 }
 
 .sub-heading {
@@ -98,6 +98,11 @@ header .navbar__bar a {
   border-radius: 0.5rem;
   padding: 0.5rem 1.5rem;
   color: rgb(51, 178, 51);
+}
+
+header .nav__links li {
+  display: inline-block;
+  text-decoration: none;
 }
 
 header .navbar__bar a.active,
@@ -305,7 +310,8 @@ header .icons #menu-bars {
   padding: 1.5rem 0;
 }
 
-.dishes .box-container .box .stars i .fa-solid, .fas {
+.dishes .box-container .box .stars i .fa-solid,
+.fas {
   font-size: 1.7rem;
   color: orange;
 }
@@ -565,6 +571,8 @@ header .icons #menu-bars {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
+  background-color: rgb(244, 244, 244);
+  justify-items: center;
 }
 
 .footer .box-container .box h3 {
@@ -593,7 +601,7 @@ header .icons #menu-bars {
   color: #192a56;
   padding: 0.5rem;
   padding-top: 1.5rem;
-  margin-top: 1.5rem;
+  background-color: rgb(244, 244, 244);
 }
 
 .footer .box-container .box i {
