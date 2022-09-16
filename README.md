@@ -1,3 +1,6 @@
 # TacoShop
-final coder house
+COder houser
 Proyecto de clase de coder house
+HTML
+SCSS
+JAVA SCRIPT
